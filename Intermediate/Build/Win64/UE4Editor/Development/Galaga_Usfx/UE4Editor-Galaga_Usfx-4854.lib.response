@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Galaga_Usfx-4854.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\Galaga_UsfxEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_Usfx.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxGameMode.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxPawn.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxProjectile.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\nave_enemiga.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_Usfx.init.gen.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxGameMode.gen.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxPawn.gen.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Galaga_UsfxProjectile.gen.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\nave_enemiga.gen.cpp.obj"
+"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Default.rc2.res"
+/OUT:"C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\UE4Editor-Galaga_Usfx-4854.lib"

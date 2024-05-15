@@ -18,6 +18,11 @@ public:
 
 	class Anave_enemiga* nave1;
 
+	TArray <Anave_enemiga*> contenedor_naves;
+	//TArray <Anavecaza*> contenedor_navescaza;
+
+	class Anave_enemiga* nave_enemiga;
+
 };
 
 

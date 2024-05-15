@@ -13,10 +13,13 @@ Anave_enemiga::Anave_enemiga()
 	meshnave->SetStaticMesh(MeshNave1);
 
 	vida = 100;
-	velocidad = 5000;
+	velocidad = 1000;
 	moviendo_derecha = true;
-	distancia_maxima_derecha = 1000;
-	distancia_maxima_izquierda = 0;
+	distancia_maxima_derecha = 1201.58;
+	distancia_maxima_izquierda =-1201.58;
+
+
+
 
 
 }
@@ -61,6 +64,23 @@ void Anave_enemiga::mover(float DeltaTime)
 	nuevaX = GetActorLocation().X;
 	nuevaY = GetActorLocation().Y + velocidad * DeltaTime;
 	nueva_ubicacion = FVector(nuevaX, nuevaY, GetActorLocation().Z);
-	SetActorLocation(nueva_ubicacion);
+	SetActorLocation(nueva_ubicacion, true);
+}
+
+void Anave_enemiga::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
+{
+	Anave_enemiga* nave = Cast<Anave_enemiga>(Other);
+
+	if (Other != nullptr)
+	{
+		if (moviendo_derecha == true)
+			moviendo_derecha = false;
+		else if (moviendo_derecha == false)
+			moviendo_derecha = true;
+
+	}
+
+	//GEngine->AddOnScreenDebugMessage
+
 }
 
