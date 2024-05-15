@@ -1,0 +1,2 @@
+C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Intermediate\Build\Win64\UE4Editor\Development\Galaga_Usfx\Definitions.Galaga_Usfx.h
+C:\Users\lenovo\Documents\Unreal Projects\MyProject3\Galaga_Usfx\Source\Galaga_Usfx\Galaga_Usfx.h

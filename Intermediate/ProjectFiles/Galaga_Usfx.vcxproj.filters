@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Galaga_Usfx.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C0E4B3C6-C069-41F4-AF79-0EF3A28A83DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Galaga_Usfx.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Galaga_UsfxEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{655DB803-7C59-43B8-BB38-A541AB9C16AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Galaga_Usfx">
+      <UniqueIdentifier>{609872EC-1F19-4BC5-8161-8CC726B25B7F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Galaga_Usfx\Galaga_Usfx.Build.cs">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Galaga_Usfx\Galaga_Usfx.cpp">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Usfx\Galaga_Usfx.h">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Usfx\Galaga_UsfxGameMode.cpp">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Usfx\Galaga_UsfxGameMode.h">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Usfx\Galaga_UsfxPawn.cpp">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Usfx\Galaga_UsfxPawn.h">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Usfx\Galaga_UsfxProjectile.cpp">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Usfx\Galaga_UsfxProjectile.h">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Galaga_Usfx\nave_enemiga.cpp">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Galaga_Usfx\nave_enemiga.h">
+      <Filter>Source\Galaga_Usfx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
